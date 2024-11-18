@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peta Desa Adisana</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Warna kustom */
+    .navbar {
+      background-color: #1E88E5; /* Navbar biru tua */
+    }
+    .hero-section {
+      background-color: #E3F2FD; /* Biru muda */
+      padding: 60px 0;
+      color: #0D47A1; /* Teks biru tua */
+    }
+    .bg-light {
+      background-color: #E1F5FE !important; /* Biru sangat muda */
+    }
+    .bg-info {
+      background-color: #BBDEFB !important; /* Biru pucat */
+      color: #0D47A1; /* Teks biru tua */
+    }
+    .bg-dark {
+      background-color: #1565C0 !important; /* Biru medium */
+      color: #FFF;
+    }
+    .section-title {
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Desa Adisana</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#map">Peta</a></li>
+          <li class="nav-item"><a class="nav-link" href="#description">Keterangan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Bagian Beranda -->
+  <div class="hero-section text-center" id="home">
+    <div class="container">
+      <h1 class="display-6">Selamat Datang di Desa Adisana</h1>
+      <img src="https://th.bing.com/th/id/R.97ca8fd6c9bc6972a97a4651bb7e47ce?rik=7s2ad6gEfFbM2g&riu=http%3a%2f%2fbumiayu.desa.id%2fupload%2fumum%2f1662081903GRAHA+BUMIAYU.jpg&ehk=tf%2b%2fWgZiMEpoSovu83tsHQQIGLQmxKv3ZmBxSSmef0Q%3d&risl=&pid=ImgRaw&r=0" alt="Desa Adisana" class="img-fluid rounded my-4">
+      <p class="lead">Desa Adisana terletak di Kecamatan Bumiayu, Kabupaten Brebes, Provinsi Jawa Tengah. Desa ini merupakan bagian dari wilayah Bumiayu yang dikenal dengan budaya, pemandangan alam, dan keindahan khas daerah Brebes.</p>
+    </div>
+  </div>
+
+  <!-- Bagian Peta -->
+  <section id="map" class="section bg-light">
+    <div class="container text-center">
+      <h2 class="section-title">Peta Desa Adisana</h2>
+      <div id="map-container">
+        <iframe src="https://desaadisana.netlify.app/" frameborder="0" style="width: 100%; height: 500px;"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bagian Keterangan -->
+  <section id="description" class="section bg-info">
+    <div class="container">
+      <h2 class="section-title text-center">Keterangan</h2>
+      <p>Desa Adisana merupakan salah satu desa di Kecamatan Bumiayu, dengan berbagai fasilitas umum seperti sekolah, pasar, dan tempat ibadah. Sebagian besar penduduknya bekerja di bidang pertanian, perdagangan, dan sektor informal. Kehidupan masyarakat desa ini dikenal dengan semangat gotong royong dan budaya yang harmonis.</p>
+      <p>Wilayah Desa Adisana terdiri dari area pemukiman yang nyaman, fasilitas pendidikan dan kesehatan yang mudah diakses, serta dikelilingi oleh keindahan alam yang memanjakan mata, menciptakan suasana yang asri dan sejuk bagi warga setempat.</p>
+    </div>
+  </section>
+
+  <!-- Bagian Tentang -->
+  <section id="about" class="section bg-dark">
+    <div class="container">
+      <h2 class="section-title text-center">Tentang Desa Adisana</h2>
+      <p>Desa Adisana memiliki kekayaan budaya yang beragam, di mana masyarakatnya masih memegang erat nilai-nilai tradisional. Berbagai acara budaya dan upacara adat kerap diadakan dan menarik perhatian wisatawan, menjadikan desa ini salah satu destinasi unik di wilayah Brebes.</p>
+      <p>Peta interaktif ini disusun untuk mempermudah pengunjung dan penduduk lokal dalam menavigasi Desa Adisana, memudahkan menemukan lokasi penting seperti fasilitas umum dan area publik. Semoga peta ini dapat membantu siapa saja yang ingin mengenal Desa Adisana lebih dekat.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center bg-light py-3">
+    <p>&copy; 2024 Peta Desa Adisana. Dikembangkan oleh Muhammad Akhsan Daffala.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
